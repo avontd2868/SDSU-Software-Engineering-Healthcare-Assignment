@@ -13,7 +13,16 @@ Windows: XAAMP (or WAMP)
   Your htdocs folder will likely be in C:\xaamp (wamp)\htdocs
   You will want to clone this project into your htdocs folder (and you may want to give it a shorter name)
   At some point you will want to install a sql program (HeidiSQL works great for windows)
-  Once the files are in place, before we use DB access, simply browse to localhost:(xaamp or wamp port)/(folder you put the files) and you should see the project.
+  Once the files are in place, before we use DB access, simply browse to localhost:(xaamp or wamp port)/
+
+***** 
+After you install the items above you have to build the data base. To build the database, go into the SQL folder and double click on the sql fils to create them.
+Order to build:
+1) Patient
+2) Medication correctence
+3) PatientSchedule
+4) AppointmentType
+5) *then the rest of the inserts, order doesn not matter
 
 Mac: MAMP
   Install, your htdocs folder will be at Applications/MAMP/htdocs
